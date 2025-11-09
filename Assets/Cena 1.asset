@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "6:30 da manh\xE3. O som agudo e repetitivo do despertador te puxa\r\npara
+      fora do sono."
+  - name: Protagonista
+    text: "J\xE1... de novo? Mal parece que eu dormi."
+  - name: Narrador
+    text: "O ru\xEDdo estranho que o alarme fez te deixa em alerta. Voc\xEA se\r\nsenta
+      na cama. Um cansa\xE7o profundo, que o sono n\xE3o curou, pesa em seus\r\nombros.\r"
+  - name: Protagonista
+    text: "* Preciso mesmo trocar a pilha disso. Ou\r\njogar fora. Minha cabe\xE7a
+      parece que vai explodir *"
+  - name: Narrador
+    text: "A rotina chama. Voc\xEA precisa se preparar"
