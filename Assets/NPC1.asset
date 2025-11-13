@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: NPC1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "A terceira aula do dia. A voz do professor parece distante, as\r\npalavras
+      chegam at\xE9 voc\xEA sem sentido. \xC9 imposs\xEDvel se concentrar.\r"
+  - name: Protagonista
+    text: "Eu n\xE3o entendi nada do que ele falou nos\r\n\xFAltimos dez minutos.
+      Minha mente est\xE1 em outro lugar... mas onde?"
+  - name: Narrador
+    text: "No meio desse torpor, voc\xEA ouve um som claro e pr\xF3ximo. Um\r\nsussurro"
+  - name: ?????
+    text: (Sussurro)
+  - name: Protagonista
+    text: O que foi isso?!
+  - name: Narrador
+    text: " Voc\xEA olha para o colega ao lado. Ele est\xE1 concentrado, copiando
+      a mat\xE9ria. Ningu\xE9m parece ter ouvido. A sensa\xE7\xE3o de que o som\r\nveio
+      de dentro da sua pr\xF3pria cabe\xE7a \xE9 perturbadora."
+  - name: Sino
+    text: '(O sinal da escola toca, alto e claro.) '
+  - name: Sino
+    text: O sinal te liberta.
+  dialogueOrder: 3

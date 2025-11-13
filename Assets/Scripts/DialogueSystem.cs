@@ -1,11 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public enum STATE
 {
     DISABLED,
     WAITING,
-    TYPING
+    TYPING,
+    CHOOSING
 }
 
 public class DialogueSystem : MonoBehaviour
@@ -18,11 +21,16 @@ public class DialogueSystem : MonoBehaviour
 
     private int currentText = 0;
     private bool finished = false;
+    private int lastDialogueCompleted = 0; // 0 = nenhum diálogo feito ainda
 
     private TypeTextAnimation typeText;
     private DialogueUI dialogueUI;
 
     private STATE state;
+
+    [Header("Escolhas de diálogo")]
+    public GameObject choicesPanel; // painel onde os botões aparecerão
+    public Button choiceButtonPrefab; // prefab de botão de escolha
 
     void Awake()
     {
@@ -31,6 +39,9 @@ public class DialogueSystem : MonoBehaviour
             typeText.TypeFinished += OnTypeFinished;
 
         dialogueUI = FindObjectOfType<DialogueUI>();
+
+        if (choicesPanel != null)
+            choicesPanel.SetActive(false); // começa escondido
     }
 
     void Start()
@@ -71,6 +82,15 @@ public class DialogueSystem : MonoBehaviour
         if (dialogueUI != null)
             dialogueUI.Enable();
 
+        Next();
+    }
+
+    public void StartDialogue(DialogueData data)
+    {
+        currentDialogueData = data;
+        currentText = 0;
+        finished = false;
+        dialogueUI.Enable();
         Next();
     }
 
@@ -126,6 +146,14 @@ public class DialogueSystem : MonoBehaviour
 
     void FinishedDialogue()
     {
+        // Se houver escolhas, mostrar painel
+        if (currentDialogueData != null && currentDialogueData.choices != null && currentDialogueData.choices.Count > 0)
+        {
+            ShowChoices(currentDialogueData.choices);
+            return;
+        }
+
+        // Se não há escolhas, encerra normalmente
         if (dialogueUI != null)
             dialogueUI.Disable();
 
@@ -133,7 +161,46 @@ public class DialogueSystem : MonoBehaviour
         currentText = 0;
         finished = false;
         currentDialogueIndex++;
+
+        if (currentDialogueData != null)
+            lastDialogueCompleted = currentDialogueData.dialogueOrder;
+
         currentDialogueData = null;
+    }
+
+    void ShowChoices(List<DialogueChoice> choices)
+    {
+        if (choicesPanel == null || choiceButtonPrefab == null) return;
+
+        // Limpa botões antigos
+        foreach (Transform child in choicesPanel.transform)
+            Destroy(child.gameObject);
+
+        choicesPanel.SetActive(true);
+        state = STATE.CHOOSING;
+
+        foreach (var choice in choices)
+        {
+            var button = Instantiate(choiceButtonPrefab, choicesPanel.transform);
+            var tmp = button.GetComponentInChildren<TMPro.TMP_Text>();
+            if (tmp != null)
+                tmp.text = choice.choiceText;
+
+            button.onClick.AddListener(() =>
+            {
+                choicesPanel.SetActive(false);
+                if (choice.nextDialogue != null)
+                {
+                    StartDialogue(choice.nextDialogue);
+                }
+                else
+                {
+                    if (dialogueUI != null)
+                        dialogueUI.Disable();
+                    state = STATE.DISABLED;
+                }
+            });
+        }
     }
 
     public void ResetDialogueSequence()
@@ -143,5 +210,10 @@ public class DialogueSystem : MonoBehaviour
         currentText = 0;
         finished = false;
         state = STATE.DISABLED;
+    }
+
+    public int GetLastDialogueCompleted()
+    {
+        return lastDialogueCompleted;
     }
 }

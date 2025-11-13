@@ -26,3 +26,9 @@ MonoBehaviour:
       parece que vai explodir *"
   - name: Narrador
     text: "A rotina chama. Voc\xEA precisa se preparar"
+  dialogueOrder: 1
+  choices:
+  - choiceText: Escolha 1
+    nextDialogue: {fileID: 11400000, guid: 2da7552922105984aae434f5e9ad56d0, type: 2}
+  - choiceText: Escolha 2
+    nextDialogue: {fileID: 11400000, guid: cc660077c7d2d6e4598b971fe9bf3d39, type: 2}

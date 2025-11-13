@@ -30,3 +30,5 @@ MonoBehaviour:
       parece... fora de ritmo *"
   - name: "M\xE3e"
     text: "Filho\u2026 Filho \xE9 bom agilizar, se n\xE3o vai se atrasar.\r"
+  dialogueOrder: 2
+  choices: []
