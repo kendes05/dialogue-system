@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 3 A
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Protagonista
+    text: Vou falar sobre a Segunda Guerra, professor.
+  - name: Professor
+    text: Belo tema, meu jovem. Estou ansioso para ver seu trabalho
+  - name: Narrador
+    text: "Depois que voc\xEA responde, o professor continua a aula. Um colega da
+      fileira ao lado joga uma bolinha de papel na sua mesa"
+  - name: Protagonista
+    text: "O que \xE9 isso?\r"
+  dialogueOrder: 13
+  choices:
+  - choiceText: Abrir papel
+    nextDialogue: {fileID: 11400000, guid: 12a476cc281b4e643ad30b086bea4ef2, type: 2}
+  - choiceText: Ignorar e focar na aula
+    nextDialogue: {fileID: 11400000, guid: 5c3c549c44e950f4c99702a03ff43412, type: 2}

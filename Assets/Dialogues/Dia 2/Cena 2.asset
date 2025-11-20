@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "Ao chegar na sala, sua m\xE3e te recebe com uma express\xE3o visivelmente
+      mais tranquila."
+  - name: "M\xE3e"
+    text: "Bom dia, meu filho! Olha s\xF3, at\xE9 parece que dormiu em uma nuvem.
+      Seu rosto est\xE1 com outra cor hoje. Fico t\xE3o feliz em te ver assim.\r"
+  dialogueOrder: 9
+  choices:
+  - choiceText: Responder animado
+    nextDialogue: {fileID: 11400000, guid: 57ddab6495a63004dbeb70874bd5be3e, type: 2}
+  - choiceText: Responder calmamente
+    nextDialogue: {fileID: 11400000, guid: de9e6baef3be60745ad8fa294be92ab5, type: 2}

@@ -321,8 +321,14 @@ MonoBehaviour:
   dialogueStages:
   - dialogueData: {fileID: 11400000, guid: c13122433a54b8a468c1b52964bb575a, type: 2}
     requiredOrder: 1
-  - dialogueData: {fileID: 11400000, guid: 3eaf91c9dcce44c4e8fd4faf9471a1ba, type: 2}
-    requiredOrder: 3
+  - dialogueData: {fileID: 11400000, guid: 0b0f0657cc145e04994f4e89134ec812, type: 2}
+    requiredOrder: 2
+  - dialogueData: {fileID: 11400000, guid: 979622968a18aba4d90d35a461ccb430, type: 2}
+    requiredOrder: 4
+  - dialogueData: {fileID: 11400000, guid: 691881258e98cef43bf24663d1a2e613, type: 2}
+    requiredOrder: 5
+  - dialogueData: {fileID: 11400000, guid: 901ed749e012b7049a9edba9d09c82ec, type: 2}
+    requiredOrder: 7
   exclamationMark: {fileID: 444981552}
   interactionDistance: 6
 --- !u!65 &169511855
@@ -1137,8 +1143,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogueTrigger
   dialogueSystem: {fileID: 524450978}
   dialogueStages:
-  - dialogueData: {fileID: 11400000, guid: 0b0f0657cc145e04994f4e89134ec812, type: 2}
-    requiredOrder: 2
+  - dialogueData: {fileID: 11400000, guid: 610410549cab41f49bf643ada9a3ef3b, type: 2}
+    requiredOrder: 8
+  - dialogueData: {fileID: 11400000, guid: 6e195c8978a25eb44a44a82aed26ca2c, type: 2}
+    requiredOrder: 9
+  - dialogueData: {fileID: 11400000, guid: 6183df6cfecc1c04db0527aac624abf1, type: 2}
+    requiredOrder: 12
+  - dialogueData: {fileID: 11400000, guid: e88c404ca4abcd147b858fe33fa06dd0, type: 2}
+    requiredOrder: 15
+  - dialogueData: {fileID: 11400000, guid: 79fd9d6551cf1174f870325448bc1878, type: 2}
+    requiredOrder: 17
   exclamationMark: {fileID: 1666530675}
   interactionDistance: 6
 --- !u!65 &1027106681

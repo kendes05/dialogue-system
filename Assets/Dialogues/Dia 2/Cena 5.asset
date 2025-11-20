@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 5
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "A noite chega. Voc\xEA est\xE1 cansado, mas de um jeito bom. O dia foi
+      cheio e, acima de tudo, normal. Voc\xEA se sente no controle novamente."
+  - name: Protagonista
+    text: "*Viu? Tudo voltou ao normal. Aquelas\r\ncoisas de ontem foram s\xF3...
+      um del\xEDrio de cansa\xE7o. Nada mais.*"
+  - name: Narrador
+    text: "Voc\xEA apaga a luz e o quarto mergulha na penumbra. Seus olhos se ajustam
+      \xE0 escurid\xE3o."
+  - name: Narrador
+    text: "No canto do quarto, sua jaqueta est\xE1 jogada\r\nsobre uma cadeira, criando
+      uma silhueta contra a parede."
+  - name: Narrador
+    text: "Enquanto voc\xEA observa, a sombra projetada pela jaqueta parece... se
+      mover."
+  - name: Protagonista
+    text: "*O qu\xEA... O que foi isso? Eu vi... Eu tenho\r\ncerteza que vi.*"
+  - name: Narrador
+    text: "Voc\xEA fica paralisado, olhando fixamente para a cadeira. A sombra est\xE1
+      perfeitamente im\xF3vel agora."
+  - name: Narrador
+    text: "\xC9 apenas uma sombra. Mas a imagem do que voc\xEA viu est\xE1 gravada
+      na sua mente"
+  dialogueOrder: 17
+  choices:
+  - choiceText: Tentar se convencer
+    nextDialogue: {fileID: 11400000, guid: 79fd9d6551cf1174f870325448bc1878, type: 2}
+  - choiceText: Aceita a estranheza
+    nextDialogue: {fileID: 11400000, guid: 895218a7d2891444db2abed5fd24acea, type: 2}

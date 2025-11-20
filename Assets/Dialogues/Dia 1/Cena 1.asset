@@ -14,21 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   talkScript:
   - name: Narrador
-    text: "6:30 da manh\xE3. O som agudo e repetitivo do despertador te puxa\r\npara
+    text: "6:30 da manh\xE3. O som agudo e repetitivo do despertador te puxa para
       fora do sono."
   - name: Protagonista
     text: "J\xE1... de novo? Mal parece que eu dormi."
   - name: Narrador
-    text: "O ru\xEDdo estranho que o alarme fez te deixa em alerta. Voc\xEA se\r\nsenta
-      na cama. Um cansa\xE7o profundo, que o sono n\xE3o curou, pesa em seus\r\nombros.\r"
+    text: "O ru\xEDdo estranho que o alarme fez te deixa em alerta. Voc\xEA se senta
+      na cama. Um cansa\xE7o profundo, que o sono n\xE3o curou.\r"
   - name: Protagonista
-    text: "* Preciso mesmo trocar a pilha disso. Ou\r\njogar fora. Minha cabe\xE7a
-      parece que vai explodir *"
+    text: "*Preciso mesmo trocar a pilha disso. Ou\r\njogar fora. Minha cabe\xE7a
+      parece que vai explodir*"
   - name: Narrador
     text: "A rotina chama. Voc\xEA precisa se preparar"
   dialogueOrder: 1
-  choices:
-  - choiceText: Escolha 1
-    nextDialogue: {fileID: 11400000, guid: 2da7552922105984aae434f5e9ad56d0, type: 2}
-  - choiceText: Escolha 2
-    nextDialogue: {fileID: 11400000, guid: cc660077c7d2d6e4598b971fe9bf3d39, type: 2}
+  choices: []

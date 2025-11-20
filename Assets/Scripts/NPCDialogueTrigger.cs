@@ -18,6 +18,7 @@ public class NPCDialogueTrigger : MonoBehaviour
 
     private Transform player;
     private bool canTalk = false;
+    private bool dialoguePlaying = false;   // evita spam de E durante o diálogo
 
     void Start()
     {
@@ -35,7 +36,7 @@ public class NPCDialogueTrigger : MonoBehaviour
 
         float distance = Vector3.Distance(transform.position, player.position);
 
-        // Se o jogador estiver perto o suficiente
+        // Jogador está dentro da distância
         if (distance <= interactionDistance)
         {
             if (!canTalk)
@@ -44,12 +45,13 @@ public class NPCDialogueTrigger : MonoBehaviour
                 AtualizarExclamacao();
             }
 
-            if (Input.GetKeyDown(KeyCode.E))
+            // Só pode iniciar diálogo se não estiver rolando um
+            if (Input.GetKeyDown(KeyCode.E) && !dialoguePlaying)
             {
-                // Verifica qual diálogo está disponível de acordo com o progresso
                 DialogueData dialogueToPlay = null;
                 int playerProgress = dialogueSystem.GetLastDialogueCompleted();
 
+                // Descobrir qual diálogo está liberado
                 foreach (var stage in dialogueStages)
                 {
                     if (playerProgress == stage.requiredOrder - 1)
@@ -62,10 +64,14 @@ public class NPCDialogueTrigger : MonoBehaviour
                 if (dialogueToPlay != null)
                 {
                     dialogueSystem.StartDialogue(dialogueToPlay);
+                    dialoguePlaying = true;
+
+                    // Espera o diálogo terminar e então atualiza o "!"
+                    StartCoroutine(WaitDialogueEndAndRefreshExclamation());
                 }
                 else
                 {
-                    Debug.Log("Nenhum diálogo disponível neste momento para este NPC.");
+                    Debug.Log("Nenhum diálogo disponível para este NPC no momento.");
                 }
             }
         }
@@ -74,10 +80,27 @@ public class NPCDialogueTrigger : MonoBehaviour
             if (canTalk)
             {
                 canTalk = false;
+
+                // quando sai do range, sempre desativa o "!"
                 if (exclamationMark != null)
                     exclamationMark.SetActive(false);
             }
         }
+    }
+
+    // Coroutine para detectar quando o diálogo terminou e então atualizar o ícone
+    private System.Collections.IEnumerator WaitDialogueEndAndRefreshExclamation()
+    {
+        // Espera até o DialogueSystem desativar a caixa de texto (diálogo finalizado)
+        while (!dialogueSystem.IsDialogueDisabled())
+            yield return null;
+
+        // marca que já não estamos em diálogo
+        dialoguePlaying = false;
+
+        // Recalcula se há diálogo disponível para este NPC
+        // (se o próximo diálogo deste NPC foi liberado, AtualizarExclamacao irá reativar o "!")
+        AtualizarExclamacao();
     }
 
     void AtualizarExclamacao()
@@ -96,7 +119,11 @@ public class NPCDialogueTrigger : MonoBehaviour
             }
         }
 
-        exclamationMark.SetActive(temDialogoDisponivel);
+        // Só ativa o "!" se o jogador estiver no range e houver diálogo disponível
+        if (canTalk)
+            exclamationMark.SetActive(temDialogoDisponivel);
+        else
+            exclamationMark.SetActive(false);
     }
 
     void OnDrawGizmosSelected()

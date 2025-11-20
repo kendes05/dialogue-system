@@ -19,16 +19,9 @@ MonoBehaviour:
   - name: "M\xE3e"
     text: "Bom dia, filho. Voc\xEA est\xE1 com olheiras bem fundas. Teve pesadelos
       de\r\nnovo?\r"
-  - name: "M\xE3e"
-    text: "Isso n\xE3o \xE9 bom. Um garoto da sua idade precisa descansar. Se\ncontinuar
-      assim, vai acabar ficando doente"
-  - name: Narrador
-    text: "Enquanto ela fala, o tique-taque do rel\xF3gio na parede parece\r\nacelerar,
-      tornando-se o som mais proeminente na sala."
-  - name: Protagonista
-    text: "* Esse rel\xF3gio... por que o barulho est\xE1 t\xE3o\r\nalto hoje? E
-      parece... fora de ritmo *"
-  - name: "M\xE3e"
-    text: "Filho\u2026 Filho \xE9 bom agilizar, se n\xE3o vai se atrasar.\r"
   dialogueOrder: 2
-  choices: []
+  choices:
+  - choiceText: Dizer que dormiu mal
+    nextDialogue: {fileID: 11400000, guid: 2da7552922105984aae434f5e9ad56d0, type: 2}
+  - choiceText: Dizer que dormiu bem
+    nextDialogue: {fileID: 11400000, guid: b19f8ad16579b184b8ae70495d5cc9d2, type: 2}

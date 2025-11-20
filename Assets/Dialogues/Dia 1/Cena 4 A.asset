@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 4 A
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Protagonista
+    text: Foi normal.
+  - name: "M\xE3e"
+    text: "\xD3timo, filho! A comida est\xE1 quase pronta. Troque de roupa e veja
+      se n\xE3o dorme, est\xE1 bem?"
+  - name: Protagonista
+    text: "*\xC9 exatamente o que eu quero fazer. Ir para\r\no meu quarto*"
+  - name: Narrador
+    text: "Voc\xEA apenas acena com a cabe\xE7a e segue para o seu quarto, seu \xFAnico
+      ref\xFAgio."
+  dialogueOrder: 6
+  choices: []

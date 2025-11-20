@@ -216,4 +216,9 @@ public class DialogueSystem : MonoBehaviour
     {
         return lastDialogueCompleted;
     }
+    public bool IsDialogueDisabled()
+    {
+        return state == STATE.DISABLED;
+    }
+
 }

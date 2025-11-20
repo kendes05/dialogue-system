@@ -10,10 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
-  m_Name: Escolha1 1
+  m_Name: Cena 5 B
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   talkScript:
-  - name: Escolha 2
-    text: Escolha 2
-  dialogueOrder: 2
+  - name: Protagonista
+    text: "N\xE3o... aquilo n\xE3o foi normal."
+  - name: Narrador
+    text: "Voc\xEA se deita na cama, mas seus olhos continuam fixos no canto escuro
+      do quarto, esperando, com medo, que a sombra se mova\r\nnovamente."
+  dialogueOrder: 18
   choices: []

@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
-  m_Name: Escolha1
+  m_Name: Cena 4 B
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   talkScript:
-  - name: Escolha 1
-    text: Escolha 1
-  dialogueOrder: 2
+  - name: Protagonista
+    text: "Claro, m\xE3e, vou pegar a caixa!"
+  - name: "M\xE3e"
+    text: Obrigada, meu filho
+  dialogueOrder: 16
   choices: []
