@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "O clima na cozinha est\xE1 pesado. Sua m\xE3e te encara com a express\xE3o
+      s\xE9ria que ela prometeu ontem."
+  - name: "M\xE3e"
+    text: "Sente-se. N\xF3s vamos conversar agora. Voc\xEA n\xE3o est\xE1 melhorando."
+  - name: "M\xE3e"
+    text: "Voc\xEA est\xE1 cada vez mais distante, mais p\xE1lido e mais assustado.
+      Eu te perguntei o que era, e voc\xEA mentiu para mim."
+  dialogueOrder: 27
+  choices:
+  - choiceText: "Dizer que est\xE1 confuso"
+    nextDialogue: {fileID: 11400000, guid: c1d47eb3955381e4c8b2cd18884dfbd2, type: 2}
+  - choiceText: "Dizer que n\xE3o \xE9 nada"
+    nextDialogue: {fileID: 11400000, guid: 6109ce9ad869df946bb4fefff6b88169, type: 2}

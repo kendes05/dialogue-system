@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 3
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "Ele est\xE1 l\xE1. Agindo normalmente, olhando para o caderno. Voc\xEA
+      se senta, seu cora\xE7\xE3o batendo um pouco mais r\xE1pido.\r"
+  - name: Protagonista
+    text: "Ok, ele \xE9 real. Ele existe. Eu n\xE3o estou louco. Ele \xE9 s\xF3...
+      esquisito.  "
+  - name: Leo
+    text: "Voc\xEA parece tenso. A conversa em casa foi\r\nruim, \xE9?"
+  - name: Protagonista
+    text: "Como... como voc\xEA sabe da conversa?"
+  - name: Leo
+    text: "Eu sei das coisas. E sei que sua m\xE3e est\xE1\r\nerrada. N\xE3o tem
+      nada de errado com voc\xEA.\r"
+  - name: Leo
+    text: "O problema s\xE3o eles.\r"
+  - name: Narrador
+    text: "O professor come\xE7a a aula, escrevendo na lousa.\r"
+  - name: Leo
+    text: "Tipo ele. O professor. Fica de olho nele.\r "
+  - name: Protagonista
+    text: O professor?
+  - name: Leo
+    text: "Ele n\xE3o gosta de voc\xEA. Ele fica te olhando diferente. Ele acha que
+      voc\xEA \xE9 um problema.\r"
+  - name: Leo
+    text: "Eu vejo o jeito que ele te olha quando voc\xEA n\xE3o est\xE1 prestando
+      aten\xE7\xE3o."
+  - name: Leo
+    text: "Voc\xEA levanta o olhar para o professor. Ele est\xE1 de costas, escrevendo.
+      Mas as palavras de Leo plantam uma semente de desconfian\xE7a."
+  dialogueOrder: 29
+  choices: []

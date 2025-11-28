@@ -20,7 +20,7 @@ MonoBehaviour:
     text: ' Oi, filho. Que bom que chegou. Pode me fazer um favor?'
   - name: "M\xE3e"
     text: "A caixa de ferramentas est\xE1 na lavanderia. Preciso que voc\xEA aperte
-      o parafuso dessa\r\nprateleira para mim, ela est\xE1 meio solta.\r"
+      o parafuso dessa prateleira para mim, ela est\xE1 meio solta.\r"
   dialogueOrder: 15
   choices:
   - choiceText: "Dizer que est\xE1 cansado"

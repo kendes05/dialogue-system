@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 2 A
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Protagonista
+    text: "M\xE3e, eu juro, n\xE3o \xE9 nada."
+  - name: "M\xE3e"
+    text: "Imposs\xEDvel n\xE3o ser nada! Filho, se\r\nfor droga, voc\xEA pode me
+      contar. Se for bullying, eu vou na escola agora mesmo.\r"
+  - name: "M\xE3e"
+    text: "Mas eu n\xE3o posso te ajudar se voc\xEA me tranca para fora!\r"
+  - name: Protagonista
+    text: '* Ela nunca entenderia. Como eu posso
+
+      explicar algo que nem eu
+      entendo? *'
+  - name: Narrador
+    text: "A conversa n\xE3o leva a lugar nenhum. Ela termina a conversa, frustrada,
+      te dando um ultimato."
+  - name: "M\xE3e"
+    text: "Certo. Se voc\xEA n\xE3o vai falar comigo, vou marcar um m\xE9dico para
+      voc\xEA esta semana. Acabou a conversa. Agora v\xE1 para a escola"
+  dialogueOrder: 28
+  choices: []

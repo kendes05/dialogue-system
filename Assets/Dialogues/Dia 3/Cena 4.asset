@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 4
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "O caminho de casa foi todo pensando no garoto da sua sala. Como algu\xE9m
+      pode ser t\xE3o r\xE1pido e silencioso?"
+  - name: "M\xE3e"
+    text: ' Chegou, filho? Como foi na escola?'
+  - name: Protagonista
+    text: "N\xE3o vou falar sobre isso. Ela vai achar\r\nestranho."
+  dialogueOrder: 23
+  choices:
+  - choiceText: Normal
+    nextDialogue: {fileID: 11400000, guid: f1844153ae94e914aa8aad8c88530c0a, type: 2}
+  - choiceText: Cansativo
+    nextDialogue: {fileID: 11400000, guid: 9f683d4120c3c9c4f8fa6d89ad074fd1, type: 2}

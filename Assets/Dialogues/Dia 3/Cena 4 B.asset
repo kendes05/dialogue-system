@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 4 B
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Protagonista
+    text: Foi cansativo, como sempre.
+  - name: "M\xE3e"
+    text: "Imagino, meu filho, muitas atividades n\xE3o \xE9? Quando quiser, o almo\xE7o
+      est\xE1 no fog\xE3o"
+  - name: Narrador
+    text: "Voc\xEA vai para o seu quarto, mas a curiosidade sobre o garoto misterioso
+      n\xE3o te abandona."
+  - name: Narrador
+    text: "N\xE3o \xE9 medo, \xE9 um quebra-cabe\xE7a que sua\nmente quer resolver."
+  dialogueOrder: 24
+  choices: []

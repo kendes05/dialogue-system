@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 5
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "Voc\xEA n\xE3o consegue dormir. A cabe\xE7a est\xE1 cheia. As palavras
+      de Leo ecoam na sua mente. Ele n\xE3o gosta de voc\xEA. O problema s\xE3o eles.\r"
+  - name: Protagonista
+    text: "Ser\xE1 que \xE9 verdade? O professor sempre\r\nme chama... Minha m\xE3e
+      sempre briga comigo..."
+  - name: Protagonista
+    text: Eles acham que eu sou um fardo.
+  - name: Narrador
+    text: "O sil\xEAncio do quarto \xE9 quebrado por um sussurro. Mas desta vez,
+      n\xE3o \xE9 indecifr\xE1vel. \xC9 uma voz clara e familiar."
+  - name: Leo
+    text: "Viu s\xF3? Eles est\xE3o contra voc\xEA."
+  - name: Narrador
+    text: "Voc\xEA se senta na cama, assustado. N\xE3o h\xE1 ningu\xE9m no quarto.
+      A porta est\xE1 fechada."
+  - name: Protagonista
+    text: "Leo? Como... Eu ouvi a voz dele. Ele est\xE1 aqui?"
+  - name: Leo
+    text: "Eu estou sempre aqui. Voc\xEA n\xE3o precisa deles. Voc\xEA s\xF3 precisa
+      de mim. Eu sou seu \xFAnico amigo de verdade.\r"
+  - name: Narrador
+    text: "A voz parece vir de todos os lugares e de lugar nenhum ao mesmo tempo.\r"
+  - name: Narrador
+    text: "Voc\xEA se cobre com o cobertor, assustado, mas uma parte de voc\xEA se
+      sente... protegido."
+  dialogueOrder: 31
+  choices: []

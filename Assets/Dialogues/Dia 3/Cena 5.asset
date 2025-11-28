@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 5
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "Voc\xEA est\xE1 sozinho com seus pensamentos. O evento na sala de aula
+      se repete na sua mente."
+  - name: Protagonista
+    text: "Ok, vamos pensar logicamente. Eu ouvi ele\r\npedir a caneta. Eu peguei
+      a caneta. Eu me virei e ele n\xE3o estava mais l\xE1.\r"
+  - name: Protagonista
+    text: "Eu estava cansado, talvez eu tenha me distra\xEDdo por um segundo a mais
+      do que eu penso."
+  - name: Protagonista
+    text: "\xC9 isso. Eu devo ter me distra\xEDdo por uns\r\ndez segundos, e ele
+      levantou e saiu. Eu s\xF3 n\xE3o percebi. Ele deve ser muito discreto."
+  - name: Narrador
+    text: "Essa explica\xE7\xE3o parece fraca, mas \xE9 a \xFAnica que faz sentido.
+      A alternativa \xE9 que ele desapareceu no ar, e isso \xE9 imposs\xEDvel."
+  - name: Protagonista
+    text: "Amanh\xE3 eu pergunto qual \xE9 o nome dele.\r\nVou resolver esse mist\xE9rio.
+      \xC9 s\xF3 um cara esquisito. Nada demais."
+  - name: Narrador
+    text: "Voc\xEA se agarra a essa explica\xE7\xE3o."
+  - name: Narrador
+    text: "\xC9 mais f\xE1cil acreditar em um colega de classe exc\xEAntrico do que
+      questionar a sua pr\xF3pria percep\xE7\xE3o da realidade."
+  dialogueOrder: 25
+  choices: []

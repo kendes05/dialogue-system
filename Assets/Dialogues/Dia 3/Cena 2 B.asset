@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 2 B
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Protagonista
+    text: "Tentei n\xE3o pensar muito antes de dormir."
+  - name: "M\xE3e"
+    text: "Entendo, filho. Mesmo assim, se sentir qualquer coisa, n\xE3o hesite em
+      me falar."
+  - name: Narrador
+    text: "Voc\xEA toma seu caf\xE9 da manh\xE3 de forma calma e deliberada"
+  - name: Narrador
+    text: "Cada a\xE7\xE3o \xE9 um esfor\xE7o para provar, para si mesmo e para ela,
+      que tudo est\xE1\nsob controle."
+  dialogueOrder: 21
+  choices: []

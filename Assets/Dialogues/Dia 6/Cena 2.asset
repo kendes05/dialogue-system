@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: "M\xE3e"
+    text: "Filho? Por favor... fala comigo. Voc\xEA n\xE3o pode ficar a\xED para
+      sempre. Voc\xEA... voc\xEA vai perder a escola.\r"
+  - name: Protagonista
+    text: "* A escola... Ela ainda se preocupa com\r\nisso? *\r"
+  - name: Leo
+    text: "\xC9 uma armadilha. \xC9 \xF3bvio. Ela quer que voc\xEA saia. Ela quer
+      te levar para o \"m\xE9dico\". N\xE3o responda"
+  - name: "M\xE3e"
+    text: "Filho? Pelo menos coma alguma coisa. Eu fiz o seu caf\xE9. Vou deixar
+      aqui na porta."
+  - name: Narrador
+    text: "Voc\xEA ouve o som de um prato a ser colocado no ch\xE3o, do outro lado."
+  dialogueOrder: 42
+  choices:
+  - choiceText: "Ficar em sil\xEAncio"
+    nextDialogue: {fileID: 11400000, guid: 715b6d595b533c54b8b12b6741b3c515, type: 2}
+  - choiceText: Gritar
+    nextDialogue: {fileID: 11400000, guid: 17cb6f3ba40acb7449b391d54613f4fa, type: 2}

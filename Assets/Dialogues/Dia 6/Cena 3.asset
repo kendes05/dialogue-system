@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 3
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "As horas arrastam-se. A fome come\xE7a a apertar, mas o medo \xE9 maior.
+      O sil\xEAncio da casa \xE9 ensurdecedor."
+  - name: Protagonista
+    text: Estou sozinho. Completamente sozinho
+  - name: Leo
+    text: "Voc\xEA n\xE3o est\xE1 sozinho.\r"
+  - name: Leo
+    text: "Voc\xEA n\xE3o est\xE1 sozinho.\r"
+  - name: Narrador
+    text: "Voc\xEA vira-se. Pela primeira vez, Leo est\xE1 ali. N\xE3o como uma apari\xE7\xE3o
+      r\xE1pida ou um vulto."
+  - name: Narrador
+    text: "Ele est\xE1 sentado na sua cama, balan\xE7ando aspernas, olhando para
+      voc\xEA com um sorriso."
+  - name: Leo
+    text: Viu? Eu disse que nunca te trairia.
+  - name: Protagonista
+    text: "Leo... Voc\xEA \xE9 real. Voc\xEA est\xE1 mesmo aqui."
+  - name: Leo
+    text: "Claro que estou. Sempre estive. Eles \xE9 que n\xE3o me conseguiam ver.
+      Agora, somos s\xF3 n\xF3s dois. E temos muito que conversar.\r"
+  - name: Narrador
+    text: "A presen\xE7a dele \xE9 incrivelmente reconfortante.\r"
+  - name: Narrador
+    text: "O medo da solid\xE3o desaparece, substitu\xEDdo por um sentimento de perten\xE7a."
+  dialogueOrder: 44
+  choices: []

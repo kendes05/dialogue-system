@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "Voc\xEA entra na cozinha. Sua m\xE3e est\xE1 parada, de costas. Ela te
+      ouve entrar, mas n\xE3o se mexe. O sil\xEAncio \xE9 uma parede de gelo.\r"
+  - name: Protagonista
+    text: "* Ela est\xE1 me ignorando. Depois do jeito que\r\nela me olhou ontem...
+      agora ela finge que eu n\xE3o existo. *\r"
+  - name: Leo
+    text: "Viu s\xF3? \xC9 assim que eles te punem. Primeiro o olhar de raiva, depois
+      o sil\xEAncio. Eles querem que voc\xEA se sinta culpado.\r"
+  - name: Narrador
+    text: "Voc\xEA se senta \xE0 mesa e espera. Ela finalmente se vira, coloca sua
+      x\xEDcara na mesa com um pouco mais de for\xE7a do que o necess\xE1rio."
+  - name: Narrador
+    text: "Ela te olha, os olhos cheios de cansa\xE7o."
+  - name: "M\xE3e"
+    text: "Voc\xEA precisa comer."
+  - name: Protagonista
+    text: "Ela nem disse \"bom dia\". A raiva dela \xE9 \xF3bvia."
+  dialogueOrder: 33
+  choices:
+  - choiceText: "Tomar o caf\xE9 em sil\xEAncio"
+    nextDialogue: {fileID: 11400000, guid: 7193d5a4f5264374ca0eee890115a658, type: 2}
+  - choiceText: "Questionar sua m\xE3e"
+    nextDialogue: {fileID: 11400000, guid: 9733ab938e4c220499b2ba6d78bac333, type: 2}

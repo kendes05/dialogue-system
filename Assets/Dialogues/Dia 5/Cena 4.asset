@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 4
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "Voc\xEA chega em casa e sua m\xE3e est\xE1 te esperando. Ela se levanta
+      no momento em que voc\xEA fecha a porta."
+  - name: "M\xE3e"
+    text: "N\xF3s n\xE3o vamos continuar com isso. Eu n\xE3o sei o que voc\xEA tem,
+      e voc\xEA n\xE3o me conta.\r"
+  - name: "M\xE3e"
+    text: "Eu n\xE3o vou ficar parada vendo voc\xEA desaparecer na minha frente."
+  - name: Leo
+    text: "L\xE1 vem ela. A mentirosa. Ela vai fingir que se importa, e depois vai
+      te atacar."
+  - name: "M\xE3e"
+    text: "Eu marquei um m\xE9dico para amanh\xE3. Um psic\xF3logo. S\xF3 para conversar."
+  - name: Protagonista
+    text: "* Um m\xE9dico. Psic\xF3logo. Ela acha que eu\r\nsou louco. Ela quer me
+      internar. O LEO ESTAVA CERTO O TEMPO TODO *"
+  dialogueOrder: 37
+  choices:
+  - choiceText: Explodir de raiva
+    nextDialogue: {fileID: 11400000, guid: 6588a17f32312ae459273997290eda16, type: 2}
+  - choiceText: "Acusar sua m\xE3e"
+    nextDialogue: {fileID: 11400000, guid: 2646577f4f779564cba3a94f20a78aa8, type: 2}

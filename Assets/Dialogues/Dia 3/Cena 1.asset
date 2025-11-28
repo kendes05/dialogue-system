@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "Voc\xEA mal dormiu. A imagem daquela sombra se movendo ficou se repetindo
+      na sua cabe\xE7a"
+  - name: Narrador
+    text: "Mas com a luz da manh\xE3, o medo parece mais\ndistante, quase bobo."
+  - name: Protagonista
+    text: "Foi s\xF3 um truque de luz. Eu estava\r\nexausto. \xC9 a \xFAnica explica\xE7\xE3o.
+      Hoje preciso focar. Chega de pensar em bobagens."
+  - name: Narrador
+    text: "Voc\xEA se levanta, determinado a ter um dia normal, a for\xE7ar a normalidade
+      a acontecer."
+  dialogueOrder: 19
+  choices: []

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "A noite foi longa. Voc\xEA n\xE3o dormiu. Ficou sentado no ch\xE3o, encostado
+      na porta trancada, ouvindo a sua m\xE3e chorar outro lado.\r"
+  - name: Narrador
+    text: "Em algum momento, ela parou. Agora, h\xE1 sil\xEAncio."
+  - name: Protagonista
+    text: '* Ela desistiu. Ela foi embora *'
+  - name: Leo
+    text: "Claro que foi. Ela viu que n\xE3o podia ganhar. Voc\xEA est\xE1 seguro
+      aqui, comigo."
+  - name: Narrador
+    text: "Voc\xEA levanta-se. O quarto \xE9 a sua fortaleza. O resto da casa \xE9
+      territ\xF3rio inimigo.\r"
+  - name: Narrador
+    text: "Voc\xEA ouve o despertador tocar, mas o som vem do criado-mudo. Est\xE1
+      longe."
+  dialogueOrder: 40
+  choices:
+  - choiceText: Ignorar o despertador
+    nextDialogue: {fileID: 11400000, guid: 438a463e6887e2c4d9cdf0001c6b96a1, type: 2}
+  - choiceText: Quebrar o despertador
+    nextDialogue: {fileID: 11400000, guid: 06b7a7058e050c7489ace27bd9e7fd8d, type: 2}

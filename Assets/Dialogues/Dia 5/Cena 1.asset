@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "O despertador toca. 6:30 da manh\xE3. Voc\xEA acorda, mas a primeira coisa
+      que sente n\xE3o \xE9 cansa\xE7o. \xC9 raiva."
+  - name: Narrador
+    text: "A voz de Leo da noite anterior ecoa em sua mente: Eles est\xE3o contra
+      voc\xEA."
+  - name: Narrador
+    text: "Voc\xEA se senta na cama. O quarto est\xE1 silencioso."
+  - name: Protagonista
+    text: "* Ele tem raz\xE3o. Minha m\xE3e... o professor...\r\neles me olham diferente.
+      Eles acham que eu sou um problema. *\r"
+  - name: Leo
+    text: "Bom dia. Lembre-se do que eu disse. N\xE3o confie neles. Observe. Voc\xEA
+      vai ver que eu estou certo."
+  - name: Narrador
+    text: "A voz agora parece vir de dentro da sua pr\xF3pria cabe\xE7a. N\xE3o \xE9
+      mais um som externo, \xE9 um pensamento.\r"
+  - name: Narrador
+    text: "Voc\xEA se levanta, sentindo-se estranhamente focado."
+  dialogueOrder: 32
+  choices: []

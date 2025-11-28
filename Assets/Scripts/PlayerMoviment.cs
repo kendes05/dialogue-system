@@ -5,11 +5,6 @@ public class PlayerMoviment : MonoBehaviour
     public float velocidade = 5f;
     private Rigidbody rb;
 
-    DialogueSystem dialogueSystem;
-
-    private void Awake(){
-        dialogueSystem = FindObjectOfType<DialogueSystem>();
-    }
 
     void Start()
     {
