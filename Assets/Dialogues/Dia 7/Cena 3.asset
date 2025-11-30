@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 3
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "Voc\xEA chegou \xE0 escola. O professor est\xE1 l\xE1 na frente, mas \xE9
+      apenas um vulto sem rosto. Leo est\xE1 ao seu lado, n\xEDtido."
+  - name: Leo
+    text: Viu? Conseguimos. Estamos seguros aqui.
+  - name: Protagonista
+    text: "O professor... ele n\xE3o est\xE1 falando nada."
+  - name: Leo
+    text: "Porque eles n\xE3o importam. Eles s\xE3o figurantes. O m\xE9dico, sua
+      m\xE3e, o Lucas... eram todos testes. E voc\xEA passou."
+  - name: Protagonista
+    text: Testes?
+  - name: Leo
+    text: "Voc\xEA escolheu a mim. Voc\xEA escolheu a verdade. Agora, a gente n\xE3o
+      precisa mais voltar para aquela casa."
+  dialogueOrder: 1
+  choices:
+  - choiceText: Aceitar destino
+    nextDialogue: {fileID: 11400000, guid: adef0dd0003c5af4dab7ffec00f9473f, type: 2}
+  - choiceText: "Lembrar da m\xE3e"
+    nextDialogue: {fileID: 11400000, guid: a43b88f60da50df41b4eb60f5c5d561d, type: 2}

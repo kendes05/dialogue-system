@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "Voc\xEA passa pela sala. Sua m\xE3e est\xE1 de p\xE9, lavando a lou\xE7a.
+      O movimento dela \xE9 lento e repetitivo."
+  - name: "M\xE3e"
+    text: "...onde eu errei? Por que ele n\xE3o abre a porta?"
+  - name: Leo
+    text: "N\xE3o responda. Voc\xEA \xE9 invis\xEDvel. Voc\xEA \xE9 um fantasma.
+      Se ela se virar, o m\xE9dico volta."
+  - name: Protagonista
+    text: "Ela parece t\xE3o triste..."
+  - name: Leo
+    text: "N\xE3o caia nessa. \xC9 uma armadilha. Passa reto. Vamos embora."
+  dialogueOrder: 1
+  choices:
+  - choiceText: "Sair em sil\xEAncio"
+    nextDialogue: {fileID: 11400000, guid: 1e16637205b3dad4eb487645a5e4373e, type: 2}
+  - choiceText: Tentar falar
+    nextDialogue: {fileID: 11400000, guid: 04274bd3304ffd643b47737d9c5f4f0e, type: 2}

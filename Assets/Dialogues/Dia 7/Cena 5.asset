@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 5
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "Voc\xEA tranca a porta. O som das vozes l\xE1 fora fica abafado."
+  - name: Leo
+    text: "Pronto. Acabou. Eles n\xE3o podem entrar aqui. Nunca mais."
+  - name: Protagonista
+    text: Mas... eu vou ficar aqui para sempre?
+  - name: Narrador
+    text: "Voc\xEA olha para o canto. Leo est\xE1 l\xE1, em p\xE9."
+  - name: Leo
+    text: "L\xE1 fora \xE9 dor. L\xE1 fora \xE9 mentira. Aqui dentro, somos reis.
+      Fecha os olhos. Quando voc\xEA acordar, s\xF3 n\xF3s dois vamos existir."
+  - name: Protagonista
+    text: "S\xF3 n\xF3s dois... Sem dor... Sem m\xE9dico..."
+  - name: Narrador
+    text: "Ouve-se batidas fortes na porta e gritos abafados chamando seu nome. Mas
+      o som vai diminuindo at\xE9 virar nada."
+  - name: Narrador
+    text: "O sil\xEAncio \xE9 absoluto."
+  dialogueOrder: 1
+  choices: []

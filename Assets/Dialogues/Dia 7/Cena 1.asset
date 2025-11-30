@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "6:30 da manh\xE3. O despertador toca. A porta est\xE1 trancada. A casa
+      est\xE1 em sil\xEAncio absoluto."
+  - name: Leo
+    text: "Eles devem ter cansado. \xC9 a nossa chance."
+  - name: Protagonista
+    text: "O m\xE9dico... minha m\xE3e... ser\xE1 que eles\r\nforam embora?"
+  - name: Leo
+    text: "Eles est\xE3o esperando voc\xEA sair. Mas n\xF3s somos mais espertos.
+      Vamos para a escola. \xC9 o \xFAnico lugar seguro."
+  - name: Protagonista
+    text: "Preciso sair sem fazer barulho. S\xF3\r\ndestrancar e ir."
+  dialogueOrder: 1
+  choices: []
