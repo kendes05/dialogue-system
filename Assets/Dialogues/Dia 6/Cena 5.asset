@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4566202f18f7d0447a9f0f1a3baa9b27, type: 3}
+  m_Name: Cena 5
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Narrador
+    text: "Voc\xEA est\xE1 escondido. O seu cora\xE7\xE3o parece que vai sair pela
+      boca."
+  - name: Voz desconhecida
+    text: "Ol\xE1, jovem. Meu nome \xE9 Dr. Alves. Eu sou um m\xE9dico."
+  - name: Voz desconhecida
+    text: "A sua m\xE3e me chamou porque ela est\xE1\r\nmuito preocupada com voc\xEA.
+      Ningu\xE9m te vai magoar."
+  - name: Leo
+    text: "MENTIROSO! ELE \xC9 O PIOR DE TODOS! ELE VAI TE SEDAR E TE LEVAR EMBORA!"
+  - name: Leo
+    text: "N\xC3O DEIXA ELE ENTRAR!"
+  - name: Dr Alves
+    text: "Filho, eu s\xF3 quero conversar. Voc\xEA pode abrir a porta para mim?"
+  - name: Narrador
+    text: "A ma\xE7aneta da porta gira. Est\xE1 trancada."
+  - name: Leo
+    text: "TAPA OS OUVIDOS! N\xC3O ESCUTA AS MENTIRAS DELE! CANTA! GRITA! FAZ QUALQUER
+      COISA!"
+  dialogueOrder: 1
+  choices: []
